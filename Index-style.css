@@ -1,3 +1,79 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	margin: 0px;
+	background-color: black;
+}
+
+.menu-bar ul{
+	
+	list-style-type: none;
+	background-color: #837176;
+	padding: 30px;
+	margin: 0px;
+	overflow: hidden;
+	height: 110px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu-bar a{
+	
+	color: white;
+	text-decoration: none;
+	padding: 40px;
+	display: inline-block;
+	text-align: center;
+	
+	
+	
+}
+
+.menu-bar a:hover{
+	background-color: #544349;
+	
+}
+
+.menu-bar li{
+	
+	float: left;
+	
+}
+
+.logo{
+	margin:0px;
+	display:block;
+	margin-right:auto;
+	padding: 10px;
+}
+
+
+.info {
+	color: white;
+	list-style-type: none;
+	padding:300px;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: -120px;
+	
+	
+}
+
+.forside-billede{
+	
+	display:inline-block;
+	float: right;
+	margin-top: -400px;
+
+	
+}
+
+.SOME{
+	
+	margin: auto;
+	text-align: center;
+	
+	
+}
 
