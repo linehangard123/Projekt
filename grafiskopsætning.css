@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	background-color: whitesmoke;
+}
+.menu-bar-grafiskopseatning{
+	
+	list-style-type: none;
+	background-color: #837176;
+	padding: 30px;
+	margin: 0px;
+	overflow: hidden;
+	height: 110px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu-bar-grafiskopseatning a{
+	
+	color: white;
+	text-decoration: none;
+	padding: 40px;
+	display: inline-block;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+	
+}
+
+.menu-bar-grafiskopseatning a:hover{
+	background-color: #544349;
+	
+}
+
+.menu-bar-grafiskopseatning li{
+	
+	float: left;
+	
+}
+
+.logo{
+	margin:-50px;
+	display:block;
+	margin-left:auto;
+	padding:0px;
+}

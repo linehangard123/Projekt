@@ -25,6 +25,7 @@ body{
 	padding: 40px;
 	display: inline-block;
 	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	
 	
 	
@@ -42,10 +43,10 @@ body{
 }
 
 .logo{
-	margin:0px;
+	margin:-30px;
 	display:block;
-	margin-right:auto;
-	padding: 10px;
+	margin-right: auto;
+	padding:0px;
 }
 
 
@@ -53,7 +54,7 @@ body{
 	color: white;
 	list-style-type: none;
 	padding:300px;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 50px;
 	margin-top: -120px;
 	
@@ -71,9 +72,41 @@ body{
 
 .SOME{
 	
-	margin: auto;
+	margin-top: -100px;
 	text-align: center;
 	
 	
 }
+
+.adresse-linje{
+	
+	color: whitesmoke;
+	list-style-type: none;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+@keyframes fade-up{
+	0%{
+		opacity: 0;
+		transform: translateY(30px) scale(0.9);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+.info, .forside-billede{
+	
+	animation: fade-up 0.5s;
+}
+
+/*grafiskopsætning side*/
+
+
+
+	
+
+
 
