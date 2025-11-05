@@ -47,32 +47,12 @@ body{
 	display:block;
 	margin-right: auto;
 	padding:0px;
-}
-
-
-.info {
-	color: white;
-	list-style-type: none;
-	padding:300px;
-	font-size: 25px;
-	line-height: 50px;
-	margin-top: -120px;
-	
-	
-}
-
-.forside-billede{
-	
-	display:inline-block;
-	float: right;
-	margin-top: -400px;
-
 	
 }
 
 .SOME{
 	
-	margin-top: -100px;
+	margin-top: 100px;
 	text-align: center;
 	
 	
@@ -102,7 +82,31 @@ body{
 	animation: fade-up 0.5s;
 }
 
-/*grafiskopsætning side*/
+.samlet-info{
+	
+	color: white;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	gap: -80px; 
+}
+
+.info{
+	
+	list-style-type: none;
+	margin-right: -100px;
+	z-index: 10; 
+	font-size: 25px;
+	
+}
+
+.info li{
+	
+	margin: 30px;
+	
+}
+
 
 
 
