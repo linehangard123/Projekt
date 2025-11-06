@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	background-color: whitesmoke;
+}
+
+.menu-bar-fotografering ul{
+	
+	list-style-type: none;
+	background-color: #b2a994;
+	padding: 30px;
+	margin: 0px;
+	overflow: hidden;
+	height: 110px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu-bar-fotografering a{
+	
+	color: white;
+	text-decoration: none;
+	padding: 40px;
+	display: inline-block;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+	
+}
+
+.menu-bar-fotografering a:hover{
+	background-color: #7e7663;
+	
+}
+
+.menu-bar-fotografering li{
+	
+	float: left;
+	
+}
+
+.logo{
+	margin:-30px;
+	display:block;
+	margin-right: auto;
+	padding:0px;
+}
+
+h3{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #393731;
+	
+}
+
+h5{
+	
+	text-align: center;
+	margin: -10px;
+	font-size: 12px;
+}
+
+h6{
+	text-align: center;
+	margin: 15px;
+	font-size: 12px;
+}
+
+.galleri{
+	text-align: center;
+	padding: 80px;
+	margin: 50;
+	
+}
+
+.SOME{
+	
+	text-align: center;
+}
+
+.adresse-linje{
+	
+	list-style-type: none;
+	color: white;
+}
+
+.footer{
+	
+	background-color: #7e7663;
+	padding: 30px;
+}
